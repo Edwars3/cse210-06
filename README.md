@@ -16,3 +16,6 @@ Authors:
 Edwars Rodriguez - rod21047@byui.edu 
 Aaron Calahorra 
 Maria Angelica Scarante - nil21003@byui.edu
+
+![2022-03-28](https://user-images.githubusercontent.com/94999528/160502749-1871d3ca-daed-4075-b375-1e223c0a9ce2.png)
+
