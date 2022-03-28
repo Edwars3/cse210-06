@@ -1,3 +1,4 @@
+import constants
 from game.scripting.action import Action
 from game.casting.box import Dots_and_Boxes
 from game.casting.actor import Actor

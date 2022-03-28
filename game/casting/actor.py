@@ -1,4 +1,5 @@
 
+import constants
 
 class Actor:
     """A visible, moveable thing that participates in the game. 
