@@ -1,11 +1,13 @@
-import constants
+from constants import *
+from tkinter import *
+import numpy as np
 from game.scripting.action import Action
 from game.casting.box import Dots_and_Boxes
 from game.casting.actor import Actor
 
-class DrawActorsAction(Action):
+class StartDrawingAction(Action):
    
-   def make_edge(self, type, logical_position):
+    def make_edge(self, type, logical_position):
         if type == 'row':
             start_x = distance_between_dots/2 + logical_position[0]*distance_between_dots
             end_x = start_x+distance_between_dots
@@ -55,7 +57,7 @@ class DrawActorsAction(Action):
         score_text = 'Click to play again \n'
         self.canvas.create_text(size_of_board / 2, 15 * size_of_board / 16, font="cmr 20 bold", fill="gray",
                                 text=score_text)
-def refresh_board(self):
+    def refresh_board(self):
         for i in range(number_of_dots):
             x = i*distance_between_dots+distance_between_dots/2
             self.canvas.create_line(x, distance_between_dots/2, x,
