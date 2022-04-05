@@ -2,7 +2,6 @@
 The classic arcade game now in Python. Enjoy the single-player or multi-player gaming experience against 1, 2 or 3 computer oponents.
 
 ## Getting Started
----
 Make sure you have Python 3.8.0 or newer  and Pygame installed and running on your machine. Open a terminal and 
 browse to the project's root folder. Start the program by running the following command.
 ```
@@ -12,7 +11,6 @@ You can also run the program from an IDE like Visual Studio Code. Start your IDE
 project folder. Select the main module inside the dice folder and click the "run" button.
 
 ## Project Structure
----
 The project files and folders are organized as follows:
 ```
 root                    (project root folder)
@@ -29,12 +27,10 @@ root                    (project root folder)
 ```
 
 ## Required Technologies
----
 * Python 3.8.0
 * Pygame
 
 ## Authors
----
 * Edwars Rodriguez (rod21047@byui.edu)
 * Angelica Scarante (nil21003@byui.edu)
 * Aaron Calahorra (cal21028@byui.edu)
